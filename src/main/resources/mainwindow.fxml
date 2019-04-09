@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+      <HBox>
+         <children>
+            <Button fx:id="previousButton" focusTraversable="false" minWidth="60.0" mnemonicParsing="false" onAction="#clickPrevious" text="Prev" />
+            <Button fx:id="nextButton" focusTraversable="false" mnemonicParsing="false" onAction="#clickNext" text="Next" />
+            <Region maxWidth="1.7976931348623157E308" minWidth="10.0" />
+            <Label fx:id="sourceLabel" focusTraversable="false" maxHeight="1.7976931348623157E308" text="source: " />
+         </children>
+      </HBox>
+      <ImageView fx:id="imageView" fitHeight="540.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true" />
+  </children>
+</VBox>
